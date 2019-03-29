@@ -14,6 +14,9 @@ public class Main {
 
         // Sending commands to drone
         drone.connect();
+
+        drone.streamOn();
+
         drone.takeoff();
         drone.rotateClockwise(360);
         drone.land();

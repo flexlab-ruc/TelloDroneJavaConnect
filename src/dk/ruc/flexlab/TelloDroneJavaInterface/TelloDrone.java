@@ -105,6 +105,18 @@ public class TelloDrone {
         return false;
     }
 
+    public boolean streamOn()
+    {
+        sendMessage("streamon");
+        if(receiveMessage().equals("ok\u0000\u0000\u0000"))
+        {
+            log("stream is turned on");
+            return true;
+        }
+        log("failed to turn on stream");
+        return false;
+    }
+
     /**
      * The Drone will turn clockwise
      * @param degrees you want the drone to turn - must be between 0 and 3600
