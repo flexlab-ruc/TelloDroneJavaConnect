@@ -33,7 +33,7 @@ This project has no other requirements than an actual Tello Drone. Just folow th
 * Run the code.... 
 
 ## getting video stream from the Tello drone
-You can grab the stream and see it with ffmpeg using this command 
+You can grab the stream if you have ffmpeg installed and has send the 'streamon' command to the drone
 ```
 ffplay -probesize 32 -i udp://@:11111 -framerate 30
 ```
