@@ -31,7 +31,7 @@ public class TelloDrone {
             socket = new DatagramSocket(udpPort);
             sendMessage("command");
             //System.out.println(receiveMessage());
-            if (receiveMessage().equals("ok\u0000\u0000\u0000"))
+            if (ok())
             {
                 isConnected = true;
                 log("Succesfully connected to the drone");
@@ -44,6 +44,10 @@ public class TelloDrone {
 
             return false;
         }
+    }
+
+    private boolean ok() {
+        return receiveMessage().equals("ok\u0000\u0000\u0000");
     }
 
     private boolean sendMessage(String command)
@@ -80,7 +84,7 @@ public class TelloDrone {
     public boolean takeoff()
     {
         sendMessage("takeoff");
-        if (receiveMessage().equals("ok\u0000\u0000\u0000"))
+        if (ok())
         {
             log ("Drone takeoff");
             return true;
@@ -96,7 +100,7 @@ public class TelloDrone {
     public boolean land()
     {
         sendMessage("land");
-        if (receiveMessage().equals("ok\u0000\u0000\u0000"))
+        if (ok())
         {
             log("Drone landed");
             return true;
@@ -108,7 +112,7 @@ public class TelloDrone {
     public boolean streamOn()
     {
         sendMessage("streamon");
-        if(receiveMessage().equals("ok\u0000\u0000\u0000"))
+        if(ok())
         {
             log("stream is turned on");
             return true;
@@ -127,7 +131,7 @@ public class TelloDrone {
         if (degrees >= 0 && degrees <= 3600)
         {
             sendMessage("cw " + degrees);
-            if(receiveMessage().equals("ok\u0000\u0000\u0000"))
+            if(ok())
             {
                 log("Drone turned " + degrees + " degrees clockwise");
                 return true;

@@ -5,7 +5,11 @@
     <option name="CUSTOM_SCOPE_NAME" value="Current File" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee554dd4-ae14-4fa8-b1f4-7491f46b104d" name="Default" comment="" />
+    <list default="true" id="ee554dd4-ae14-4fa8-b1f4-7491f46b104d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/TelloDrone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/TelloDrone.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,32 +22,46 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="21" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="21" selection-end-column="21" />
+            <state relative-caret-position="330">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thumb0001.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thumb0002.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thumb0003.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/TelloDrone.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-376">
-              <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+            <state relative-caret-position="825">
+              <caret line="69" column="39" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#sendMessage#0;class#TelloDrone#0" />
-                <element signature="method#receiveMessage#0;class#TelloDrone#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="120">
-                <caret line="8" column="73" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
+              <first_editor relative-caret-position="570">
+                <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -67,17 +85,17 @@
       <list>
         <option value="$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaConnect/Main.java" />
         <option value="$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaConnect/TelloDrone.java" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/TelloDrone.java" />
         <option value="$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/Main.java" />
-        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="374" />
-    <option name="y" value="64" />
-    <option name="width" value="1919" />
-    <option name="height" value="989" />
+    <option name="x" value="336" />
+    <option name="y" value="458" />
+    <option name="width" value="1406" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -85,36 +103,16 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TelloDroneJavaConnect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TelloDroneJavaConnect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TelloDroneJavaConnect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TelloDroneJavaConnect" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TelloDroneJavaConnect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TelloDroneJavaConnect" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TelloDroneJavaInterface" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Course" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553866953907" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561460218842" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -203,16 +201,18 @@
       <workItem from="1552046026754" duration="14504000" />
       <workItem from="1553860780354" duration="1061000" />
       <workItem from="1553864861292" duration="1782000" />
+      <workItem from="1561458442650" duration="1706000" />
+      <workItem from="1561462366173" duration="2600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17915000" />
+    <option name="totallyTimeSpent" value="27248000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="374" y="64" width="1919" height="989" extended-state="0" />
+    <frame x="0" y="23" width="1406" height="877" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3399041" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.47800586" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -232,6 +232,8 @@
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32830188" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="13" />
+      <window_info anchor="bottom" id="SonarLint" order="14" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -248,32 +250,40 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/TelloDrone.java">
+    <entry file="file://$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-376">
-          <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#sendMessage#0;class#TelloDrone#0" />
-            <element signature="method#receiveMessage#0;class#TelloDrone#0" />
-          </folding>
+        <state relative-caret-position="330">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="21" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/thumb0001.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thumb0002.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thumb0003.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="8" column="73" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
+          <first_editor relative-caret-position="570">
+            <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/TelloDrone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="69" column="39" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#sendMessage#0;class#TelloDrone#0" />
+          </folding>
         </state>
       </provider>
     </entry>
