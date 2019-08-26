@@ -1,5 +1,7 @@
 # TelloDroneJavaConnect
 
+## :warning: queue system is not tested yet!
+
 **August 2019: Added support for front camera on drone**
 
 A brief example of how to program a Tello drone with Java.
