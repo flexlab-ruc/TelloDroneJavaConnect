@@ -1,5 +1,7 @@
 # TelloDroneJavaConnect
 
+**August 2019: Added support for front camera on drone**
+
 A brief example of how to program a Tello drone with Java.
 Tello drones accept commands through UDP and responds with a short text message
 
@@ -7,7 +9,7 @@ You can find further information about the drone here: [https://www.ryzerobotics
 
 ## Code Example
 This example makes it very easy to commmunicate with the drone - see the code below:
-```
+```java
         // Create Drone instance
         TelloDrone drone = new TelloDrone();
 
