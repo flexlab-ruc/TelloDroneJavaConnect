@@ -1,75 +1,72 @@
 package dk.ruc.flexlab.TelloDroneJavaInterface;
 
-import java.net.UnknownHostException;
-
 public class Main {
 
-    public static void main(String[] args) throws UnknownHostException {
+    public static void main(String[] args)  {
 
         // Create Drone instance
         TelloDrone drone = new TelloDrone();
 
-        //drone.setLogToConsole(true);
+        drone.setLogToConsole(true);
 
         drone.connect();
 
+        // sending single commands to the drone:
+
         drone.getBatteryPercentage();
-
-        /*
-        drone.setSpeed(90);
-        drone.getSpeed();
-
-        // Sending commands to drone
-
-        drone.streamOn();
 
         drone.takeoff();
 
-        drone.rotateClockwise(180);
-
-        drone.grabImage();
-        System.out.println(drone.getGrabbedImageURL());
-
-        drone.rotateCounterClockwise(180);
-
-        drone.grabImage();
-        System.out.println(drone.getGrabbedImageURL());
-
-        drone.goForward(50);
-        drone.goLeft(50);
-        drone.goBackwards(50);
-        drone.goRight(50);
-        drone.goDown(50);
-        drone.goUp(50);
+        drone.rotateClockwise(360);
 
         drone.land();
-        drone.streamOff();
-        */
 
 
 
+
+        // create a queue of commands and execute them
+
+        drone.addToCommandQueue("sdk?");
+        drone.addToCommandQueue("sn?");
+        drone.addToCommandQueue("takeoff");
+        drone.addToCommandQueue("ccw 180");
+        drone.addToCommandQueue("cw 180");
+        drone.addToCommandQueue("land");
+
+
+        //disable logging drone and use the eventlistener below instead
+        drone.setLogToConsole(false);
+
+        // add eventlistener to the "drone command queue"
         drone.addCommandQueueEventListener(new TelloDrone.DroneCommandEventListener() {
             @Override
-            public void commandExecuted(TelloDrone.Command command) {
-                System.out.println(command.getCommand());
+            public void commandExecuted(TelloDrone.Command command)
+            {
+                System.out.println("Command Executed:");
+                System.out.println(command);
 
             }
 
             @Override
-            public void commandFinished(TelloDrone.Command command) {
-                System.out.println(command.getReply());
+            public void commandFinished(TelloDrone.Command command)
+            {
+                System.out.println("Command Finished:");
+                System.out.println(command);
             }
 
             @Override
-            public void commandAdded(TelloDrone.Command command) {
+            public void commandAdded(TelloDrone.Command command)
+            {
                 System.out.println(command.getCommand() + " added to queue");
 
             }
 
             @Override
             public void commandQueueFinished() {
-                System.out.println("done");
+                System.out.println("Done. No more commands in queue");
             }
         });
+
+        drone.startCommandQueue();
     }
 }

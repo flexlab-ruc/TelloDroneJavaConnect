@@ -33,6 +33,7 @@ public class TelloDrone {
     }
 
     public TelloDrone() {
+        log("Initializing Drone");
         File folder = new File("grabbedImages");
         File[] images = folder.listFiles();
         Arrays.sort(images);
@@ -47,6 +48,7 @@ public class TelloDrone {
      */
     public boolean connect() {
         try {
+            log("Connecting to drone");
             IPAddress = InetAddress.getByName("192.168.10.1");
             socket = new DatagramSocket(udpPort);
             sendMessage("command");
@@ -508,6 +510,18 @@ public class TelloDrone {
 
         public void setReply(String reply){
             this.reply = reply;
+        }
+
+        @Override
+        public String toString() {
+            StringBuilder builder = new StringBuilder();
+            builder.append("command: \t");
+            builder.append(command);
+            builder.append(System.getProperty("line.separator"));
+            builder.append("reply \t\t");
+            builder.append(reply);
+            builder.append(System.getProperty("line.separator"));
+            return builder.toString();
         }
     }
 
