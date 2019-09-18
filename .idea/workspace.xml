@@ -6,9 +6,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee554dd4-ae14-4fa8-b1f4-7491f46b104d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/TelloDrone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/TelloDrone.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,104 +16,101 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.67382175">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="17" selection-start-line="17" selection-end-line="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/TelloDrone.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="69">
-                  <caret line="317" column="7" lean-forward="true" selection-start-line="317" selection-start-column="7" selection-end-line="317" selection-end-column="7" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#4260#4261#0" expanded="true" />
-                    <element signature="e#4299#4300#0" expanded="true" />
-                    <element signature="e#4464#4465#0" expanded="true" />
-                    <element signature="e#4501#4502#0" expanded="true" />
-                    <element signature="e#4670#4671#0" expanded="true" />
-                    <element signature="e#4709#4710#0" expanded="true" />
-                    <element signature="e#4880#4881#0" expanded="true" />
-                    <element signature="e#4920#4921#0" expanded="true" />
-                    <element signature="e#5095#5096#0" expanded="true" />
-                    <element signature="e#5137#5138#0" expanded="true" />
-                    <element signature="e#5316#5317#0" expanded="true" />
-                    <element signature="e#5355#5356#0" expanded="true" />
-                    <element signature="e#8037#8038#0" expanded="true" />
-                    <element signature="e#8072#8073#0" expanded="true" />
-                    <element signature="e#8551#8552#0" expanded="true" />
-                    <element signature="e#8599#8600#0" expanded="true" />
-                    <element signature="e#12035#12036#0" expanded="true" />
-                    <element signature="e#12066#12067#0" expanded="true" />
-                    <element signature="e#12152#12153#0" expanded="true" />
-                    <element signature="e#12192#12193#0" expanded="true" />
-                    <element signature="e#12276#12277#0" expanded="true" />
-                    <element signature="e#12315#12316#0" expanded="true" />
-                    <element signature="e#12853#12854#0" expanded="true" />
-                    <element signature="e#12891#12892#0" expanded="true" />
-                    <element signature="e#12934#12935#0" expanded="true" />
-                    <element signature="e#13006#13007#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/README.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="150">
-                    <caret line="10" column="55" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="55" />
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/grabbedImages/0014.jpg">
-              <provider selected="true" editor-type-id="images" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/grabbedImages/0016.jpg">
-              <provider selected="true" editor-type-id="images" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/grabbedImages/0017.jpg">
-              <provider selected="true" editor-type-id="images" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/grabbedImages/0013.jpg">
-              <provider selected="true" editor-type-id="images" />
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1005">
-                  <caret line="69" column="34" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="69" selection-end-column="34" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/TelloDrone.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="813">
+              <caret line="548" column="61" selection-start-line="548" selection-start-column="61" selection-end-line="548" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2121#2122#0" expanded="true" />
+                <element signature="e#2191#2192#0" expanded="true" />
+                <element signature="e#4335#4336#0" expanded="true" />
+                <element signature="e#4374#4375#0" expanded="true" />
+                <element signature="e#4539#4540#0" expanded="true" />
+                <element signature="e#4576#4577#0" expanded="true" />
+                <element signature="e#4745#4746#0" expanded="true" />
+                <element signature="e#4784#4785#0" expanded="true" />
+                <element signature="e#4955#4956#0" expanded="true" />
+                <element signature="e#4995#4996#0" expanded="true" />
+                <element signature="e#5170#5171#0" expanded="true" />
+                <element signature="e#5212#5213#0" expanded="true" />
+                <element signature="e#5391#5392#0" expanded="true" />
+                <element signature="e#5430#5431#0" expanded="true" />
+                <element signature="e#8112#8113#0" expanded="true" />
+                <element signature="e#8147#8148#0" expanded="true" />
+                <element signature="e#8626#8627#0" expanded="true" />
+                <element signature="e#8674#8675#0" expanded="true" />
+                <element signature="e#12110#12111#0" expanded="true" />
+                <element signature="e#12141#12142#0" expanded="true" />
+                <element signature="e#12227#12228#0" expanded="true" />
+                <element signature="e#12267#12268#0" expanded="true" />
+                <element signature="e#12351#12352#0" expanded="true" />
+                <element signature="e#12390#12391#0" expanded="true" />
+                <element signature="e#12928#12929#0" expanded="true" />
+                <element signature="e#12966#12967#0" expanded="true" />
+                <element signature="e#13009#13010#0" expanded="true" />
+                <element signature="e#13081#13082#0" expanded="true" />
+                <element signature="e#13126#13127#0" expanded="true" />
+                <element signature="e#13197#13198#0" expanded="true" />
+                <element signature="e#13333#13334#0" expanded="true" />
+                <element signature="e#13379#13380#0" expanded="true" />
+                <element signature="e#13417#13418#0" expanded="true" />
+                <element signature="e#13455#13456#0" expanded="true" />
+                <element signature="e#13491#13492#0" expanded="true" />
+                <element signature="e#13527#13528#0" expanded="true" />
+                <element signature="e#13572#13573#0" expanded="true" />
+                <element signature="e#13614#13615#0" expanded="true" />
+                <element signature="e#14499#14500#0" expanded="true" />
+                <element signature="e#14541#14542#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="510">
+                <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grabbedImages/0014.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grabbedImages/0016.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grabbedImages/0017.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grabbedImages/0013.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -152,8 +146,8 @@
         <option value="$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/CommandEventListener.java" />
         <option value="$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/DroneCommandEventListener.java" />
         <option value="$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/Main.java" />
-        <option value="$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/TelloDrone.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/TelloDrone.java" />
       </list>
     </option>
   </component>
@@ -167,8 +161,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Course" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,10 +190,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Course" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567764859902" />
@@ -315,13 +310,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53194000" />
+    <option name="totallyTimeSpent" value="53215000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <frame x="0" y="23" width="2500" height="1417" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14892772" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16192026" />
       <window_info id="Structure" order="1" weight="0.24980143" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -392,6 +387,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="bugfix in queue notifications" />
+    <option name="LAST_COMMIT_MESSAGE" value="bugfix in queue notifications" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -423,9 +422,7 @@
     <entry file="file://$PROJECT_DIR$/grabbedImages/0019.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/grabbedImages/0020.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/grabbedImages/0020.jpg" />
     <entry file="file://$PROJECT_DIR$/grabbedImages/0014.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -444,56 +441,70 @@
     <entry file="file://$PROJECT_DIR$/docs/index-files/index-1.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="510">
+            <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="255">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/TelloDrone.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="317" column="7" lean-forward="true" selection-start-line="317" selection-start-column="7" selection-end-line="317" selection-end-column="7" />
+        <state relative-caret-position="813">
+          <caret line="548" column="61" selection-start-line="548" selection-start-column="61" selection-end-line="548" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4260#4261#0" expanded="true" />
-            <element signature="e#4299#4300#0" expanded="true" />
-            <element signature="e#4464#4465#0" expanded="true" />
-            <element signature="e#4501#4502#0" expanded="true" />
-            <element signature="e#4670#4671#0" expanded="true" />
-            <element signature="e#4709#4710#0" expanded="true" />
-            <element signature="e#4880#4881#0" expanded="true" />
-            <element signature="e#4920#4921#0" expanded="true" />
-            <element signature="e#5095#5096#0" expanded="true" />
-            <element signature="e#5137#5138#0" expanded="true" />
-            <element signature="e#5316#5317#0" expanded="true" />
-            <element signature="e#5355#5356#0" expanded="true" />
-            <element signature="e#8037#8038#0" expanded="true" />
-            <element signature="e#8072#8073#0" expanded="true" />
-            <element signature="e#8551#8552#0" expanded="true" />
-            <element signature="e#8599#8600#0" expanded="true" />
-            <element signature="e#12035#12036#0" expanded="true" />
-            <element signature="e#12066#12067#0" expanded="true" />
-            <element signature="e#12152#12153#0" expanded="true" />
-            <element signature="e#12192#12193#0" expanded="true" />
-            <element signature="e#12276#12277#0" expanded="true" />
-            <element signature="e#12315#12316#0" expanded="true" />
-            <element signature="e#12853#12854#0" expanded="true" />
-            <element signature="e#12891#12892#0" expanded="true" />
-            <element signature="e#12934#12935#0" expanded="true" />
-            <element signature="e#13006#13007#0" expanded="true" />
+            <element signature="e#2121#2122#0" expanded="true" />
+            <element signature="e#2191#2192#0" expanded="true" />
+            <element signature="e#4335#4336#0" expanded="true" />
+            <element signature="e#4374#4375#0" expanded="true" />
+            <element signature="e#4539#4540#0" expanded="true" />
+            <element signature="e#4576#4577#0" expanded="true" />
+            <element signature="e#4745#4746#0" expanded="true" />
+            <element signature="e#4784#4785#0" expanded="true" />
+            <element signature="e#4955#4956#0" expanded="true" />
+            <element signature="e#4995#4996#0" expanded="true" />
+            <element signature="e#5170#5171#0" expanded="true" />
+            <element signature="e#5212#5213#0" expanded="true" />
+            <element signature="e#5391#5392#0" expanded="true" />
+            <element signature="e#5430#5431#0" expanded="true" />
+            <element signature="e#8112#8113#0" expanded="true" />
+            <element signature="e#8147#8148#0" expanded="true" />
+            <element signature="e#8626#8627#0" expanded="true" />
+            <element signature="e#8674#8675#0" expanded="true" />
+            <element signature="e#12110#12111#0" expanded="true" />
+            <element signature="e#12141#12142#0" expanded="true" />
+            <element signature="e#12227#12228#0" expanded="true" />
+            <element signature="e#12267#12268#0" expanded="true" />
+            <element signature="e#12351#12352#0" expanded="true" />
+            <element signature="e#12390#12391#0" expanded="true" />
+            <element signature="e#12928#12929#0" expanded="true" />
+            <element signature="e#12966#12967#0" expanded="true" />
+            <element signature="e#13009#13010#0" expanded="true" />
+            <element signature="e#13081#13082#0" expanded="true" />
+            <element signature="e#13126#13127#0" expanded="true" />
+            <element signature="e#13197#13198#0" expanded="true" />
+            <element signature="e#13333#13334#0" expanded="true" />
+            <element signature="e#13379#13380#0" expanded="true" />
+            <element signature="e#13417#13418#0" expanded="true" />
+            <element signature="e#13455#13456#0" expanded="true" />
+            <element signature="e#13491#13492#0" expanded="true" />
+            <element signature="e#13527#13528#0" expanded="true" />
+            <element signature="e#13572#13573#0" expanded="true" />
+            <element signature="e#13614#13615#0" expanded="true" />
+            <element signature="e#14499#14500#0" expanded="true" />
+            <element signature="e#14541#14542#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="10" column="55" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="55" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>

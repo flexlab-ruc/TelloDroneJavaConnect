@@ -546,7 +546,7 @@ public class TelloDrone {
                 eventListeners.forEach(e->{e.commandExecuted(commandsToExecute.get(0));});
                 drone.sendMessage(commandsToExecute.get(0).getCommand());
                 commandsToExecute.get(0).setReply(receiveMessage());
-                eventListeners.forEach(e->{e.commandExecuted(commandsToExecute.get(0));});
+                eventListeners.forEach(e->{e.commandFinished(commandsToExecute.get(0));});
                 executedCommands.add(commandsToExecute.get(0));
                 commandsToExecute.remove(0);
             }
