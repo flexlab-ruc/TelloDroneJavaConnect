@@ -5,112 +5,16 @@
     <option name="CUSTOM_SCOPE_NAME" value="Current File" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee554dd4-ae14-4fa8-b1f4-7491f46b104d" name="Default" comment="">
+    <list default="true" id="ee554dd4-ae14-4fa8-b1f4-7491f46b104d" name="Default" comment="bugfix in queue notifications">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/TelloDrone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/TelloDrone.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/TelloDrone.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="813">
-              <caret line="548" column="61" selection-start-line="548" selection-start-column="61" selection-end-line="548" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2121#2122#0" expanded="true" />
-                <element signature="e#2191#2192#0" expanded="true" />
-                <element signature="e#4335#4336#0" expanded="true" />
-                <element signature="e#4374#4375#0" expanded="true" />
-                <element signature="e#4539#4540#0" expanded="true" />
-                <element signature="e#4576#4577#0" expanded="true" />
-                <element signature="e#4745#4746#0" expanded="true" />
-                <element signature="e#4784#4785#0" expanded="true" />
-                <element signature="e#4955#4956#0" expanded="true" />
-                <element signature="e#4995#4996#0" expanded="true" />
-                <element signature="e#5170#5171#0" expanded="true" />
-                <element signature="e#5212#5213#0" expanded="true" />
-                <element signature="e#5391#5392#0" expanded="true" />
-                <element signature="e#5430#5431#0" expanded="true" />
-                <element signature="e#8112#8113#0" expanded="true" />
-                <element signature="e#8147#8148#0" expanded="true" />
-                <element signature="e#8626#8627#0" expanded="true" />
-                <element signature="e#8674#8675#0" expanded="true" />
-                <element signature="e#12110#12111#0" expanded="true" />
-                <element signature="e#12141#12142#0" expanded="true" />
-                <element signature="e#12227#12228#0" expanded="true" />
-                <element signature="e#12267#12268#0" expanded="true" />
-                <element signature="e#12351#12352#0" expanded="true" />
-                <element signature="e#12390#12391#0" expanded="true" />
-                <element signature="e#12928#12929#0" expanded="true" />
-                <element signature="e#12966#12967#0" expanded="true" />
-                <element signature="e#13009#13010#0" expanded="true" />
-                <element signature="e#13081#13082#0" expanded="true" />
-                <element signature="e#13126#13127#0" expanded="true" />
-                <element signature="e#13197#13198#0" expanded="true" />
-                <element signature="e#13333#13334#0" expanded="true" />
-                <element signature="e#13379#13380#0" expanded="true" />
-                <element signature="e#13417#13418#0" expanded="true" />
-                <element signature="e#13455#13456#0" expanded="true" />
-                <element signature="e#13491#13492#0" expanded="true" />
-                <element signature="e#13527#13528#0" expanded="true" />
-                <element signature="e#13572#13573#0" expanded="true" />
-                <element signature="e#13614#13615#0" expanded="true" />
-                <element signature="e#14499#14500#0" expanded="true" />
-                <element signature="e#14541#14542#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="510">
-                <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grabbedImages/0014.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grabbedImages/0016.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grabbedImages/0017.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grabbedImages/0013.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -131,68 +35,14 @@
       <find>tellodrone</find>
       <find>stringbui</find>
       <find>grabbed</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaConnect/Main.java" />
-        <option value="$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaConnect/TelloDrone.java" />
-        <option value="$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/Command.java" />
-        <option value="$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/DroneCommand.java" />
-        <option value="$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/CommandEventListener.java" />
-        <option value="$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/DroneCommandEventListener.java" />
-        <option value="$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/Main.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/TelloDrone.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="2560" />
-    <option name="height" value="1440" />
-  </component>
+  <component name="ProjectId" id="1RPTBUk9BEt19WkQfAhuY5FB5XJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Course" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TelloDroneJavaConnect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TelloDroneJavaConnect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TelloDroneJavaConnect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TelloDroneJavaConnect" type="462c0819:PsiDirectoryNode" />
-              <item name="grabbedImages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TelloDroneJavaConnect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TelloDroneJavaConnect" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TelloDroneJavaConnect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TelloDroneJavaConnect" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TelloDroneJavaInterface" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -306,86 +156,34 @@
       <workItem from="1566161563981" duration="1197000" />
       <workItem from="1566203727633" duration="59000" />
       <workItem from="1567760990707" duration="3517000" />
+      <workItem from="1569242448491" duration="779000" />
+      <workItem from="1569508777997" duration="372000" />
+      <workItem from="1569509273283" duration="661000" />
+      <workItem from="1569567601581" duration="115000" />
     </task>
+    <task id="LOCAL-00001" summary="bugfix in queue notifications">
+      <created>1568801369717</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568801369717</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53215000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2500" height="1417" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16192026" />
-      <window_info id="Structure" order="1" weight="0.24980143" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16569343" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3299363" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32611465" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" order="13" />
-      <window_info anchor="bottom" id="SonarLint" order="14" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="right" id="Maven" order="9" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26290706" />
-      <window_info id="Structure" order="1" weight="0.24980143" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3459854" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3270073" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" order="13" />
-      <window_info anchor="bottom" id="SonarLint" order="14" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="right" id="Maven" order="9" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bugfix in queue notifications" />
@@ -396,118 +194,11 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/TelloDrone.java</url>
-          <line>50</line>
-          <properties />
+          <line>92</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thumb0001.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thumb0003.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thumb0002.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/DroneCommand.java" />
-    <entry file="file://$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/DroneCommandEventListener.java" />
-    <entry file="file://$PROJECT_DIR$/grabbedImages/1.jpg" />
-    <entry file="file://$PROJECT_DIR$/grabbedImages/0005.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grabbedImages/0019.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grabbedImages/0020.jpg" />
-    <entry file="file://$PROJECT_DIR$/grabbedImages/0014.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grabbedImages/0016.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grabbedImages/0017.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grabbedImages/0013.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/dk/ruc/flexlab/TelloDroneJavaInterface/TelloDrone.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/index-files/index-1.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="510">
-            <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/ruc/flexlab/TelloDroneJavaInterface/TelloDrone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="813">
-          <caret line="548" column="61" selection-start-line="548" selection-start-column="61" selection-end-line="548" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2121#2122#0" expanded="true" />
-            <element signature="e#2191#2192#0" expanded="true" />
-            <element signature="e#4335#4336#0" expanded="true" />
-            <element signature="e#4374#4375#0" expanded="true" />
-            <element signature="e#4539#4540#0" expanded="true" />
-            <element signature="e#4576#4577#0" expanded="true" />
-            <element signature="e#4745#4746#0" expanded="true" />
-            <element signature="e#4784#4785#0" expanded="true" />
-            <element signature="e#4955#4956#0" expanded="true" />
-            <element signature="e#4995#4996#0" expanded="true" />
-            <element signature="e#5170#5171#0" expanded="true" />
-            <element signature="e#5212#5213#0" expanded="true" />
-            <element signature="e#5391#5392#0" expanded="true" />
-            <element signature="e#5430#5431#0" expanded="true" />
-            <element signature="e#8112#8113#0" expanded="true" />
-            <element signature="e#8147#8148#0" expanded="true" />
-            <element signature="e#8626#8627#0" expanded="true" />
-            <element signature="e#8674#8675#0" expanded="true" />
-            <element signature="e#12110#12111#0" expanded="true" />
-            <element signature="e#12141#12142#0" expanded="true" />
-            <element signature="e#12227#12228#0" expanded="true" />
-            <element signature="e#12267#12268#0" expanded="true" />
-            <element signature="e#12351#12352#0" expanded="true" />
-            <element signature="e#12390#12391#0" expanded="true" />
-            <element signature="e#12928#12929#0" expanded="true" />
-            <element signature="e#12966#12967#0" expanded="true" />
-            <element signature="e#13009#13010#0" expanded="true" />
-            <element signature="e#13081#13082#0" expanded="true" />
-            <element signature="e#13126#13127#0" expanded="true" />
-            <element signature="e#13197#13198#0" expanded="true" />
-            <element signature="e#13333#13334#0" expanded="true" />
-            <element signature="e#13379#13380#0" expanded="true" />
-            <element signature="e#13417#13418#0" expanded="true" />
-            <element signature="e#13455#13456#0" expanded="true" />
-            <element signature="e#13491#13492#0" expanded="true" />
-            <element signature="e#13527#13528#0" expanded="true" />
-            <element signature="e#13572#13573#0" expanded="true" />
-            <element signature="e#13614#13615#0" expanded="true" />
-            <element signature="e#14499#14500#0" expanded="true" />
-            <element signature="e#14541#14542#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

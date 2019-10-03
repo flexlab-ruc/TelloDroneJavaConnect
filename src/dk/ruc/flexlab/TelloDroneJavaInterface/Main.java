@@ -21,9 +21,6 @@ public class Main {
 
         drone.land();
 
-
-
-
         // create a queue of commands and execute them
 
         drone.addToCommandQueue("sdk?");
@@ -32,7 +29,6 @@ public class Main {
         drone.addToCommandQueue("ccw 180");
         drone.addToCommandQueue("cw 180");
         drone.addToCommandQueue("land");
-
 
         //disable logging drone and use the eventlistener below instead
         drone.setLogToConsole(false);
@@ -44,7 +40,6 @@ public class Main {
             {
                 System.out.println("Command Executed:");
                 System.out.println(command);
-
             }
 
             @Override
