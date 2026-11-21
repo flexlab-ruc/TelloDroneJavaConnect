@@ -25,3 +25,8 @@ hs_err_pid*
 # ignore intellij settings
 .idea
 *.jpg
+
+# build output and generated data
+out/
+paths/
+grabbedImages/

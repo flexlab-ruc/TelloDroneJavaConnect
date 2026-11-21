@@ -35,10 +35,24 @@ public class TelloDrone {
     public TelloDrone() {
         log("Initializing Drone");
         File folder = new File("grabbedImages");
-        File[] images = folder.listFiles();
-        Arrays.sort(images);
-        imageCounter = Integer.parseInt(images[images.length-1].getName().substring(0,4));
-        //System.out.println("imagecounter" + imageCounter);
+        if (!folder.exists()) {
+            folder.mkdirs();
+        }
+        File[] files = folder.listFiles();
+        ArrayList<File> images = new ArrayList<>();
+        if (files != null) {
+            for (File file : files) {
+                if (file.getName().endsWith(".jpg")) {
+                    images.add(file);
+                }
+            }
+        }
+        if (images.isEmpty()) {
+            imageCounter = 0;
+            return;
+        }
+        Arrays.sort(images.toArray());
+        imageCounter = Integer.parseInt(images.get(images.size()-1).getName().substring(0,4));
     }
 
     /**
@@ -51,6 +65,7 @@ public class TelloDrone {
             log("Connecting to drone");
             IPAddress = InetAddress.getByName("192.168.10.1");
             socket = new DatagramSocket(udpPort);
+            socket.setSoTimeout(7000);
             sendMessage("command");
             //System.out.println(receiveMessage());
             if (ok()) {
@@ -68,7 +83,8 @@ public class TelloDrone {
     }
 
     private boolean ok() {
-        return receiveMessage().equals("ok\u0000\u0000\u0000");
+        String reply = receiveMessage();
+        return reply.startsWith("ok");
     }
 
     /**
@@ -102,14 +118,18 @@ public class TelloDrone {
     }
 
     private String receiveMessage() {
-        byte[] receiveData = new byte[5];
+        byte[] receiveData = new byte[64];
         DatagramPacket packet = new DatagramPacket(receiveData, receiveData.length);
         try {
             socket.receive(packet);
+            int length = packet.getLength();
+            if (length > receiveData.length) {
+                length = receiveData.length;
+            }
+            return new String(receiveData, 0, length);
         } catch (IOException e) {
             return "communication error";
         }
-        return new String(packet.getData());
     }
 
     /**
@@ -306,13 +326,13 @@ public class TelloDrone {
      * @return
      */
     public boolean emergency() {
-        sendMessage("streamoff");
+        sendMessage("emergency");
         if (ok()) {
-            log("stream is turned off");
+            log("motor cut off");
             return true;
         }
-        log("failed to turn off stream");
-        return emergency();
+        log("emergency command failed");
+        return false;
     }
 
     /**
